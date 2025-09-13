@@ -1,0 +1,207 @@
+# varibles
+
+# varibles store values in code to reference later or use in a single expression. 
+
+age = 20      # this code will not run and it will be stored in memory instead
+
+val = 2               # this code will run
+print("val: ", val)
+
+num1 = 3 + 5 
+print("num1: ", num1)
+
+x = 3           #this code works as well and is two varibles added together
+y = 5
+z = x + y
+print("z: ", z)
+
+#$%@^! = 5.       # this code will not run
+
+# types of varibles
+
+print(type(age))       #this code shows you for age what the type of varible is and in this case it is a string
+
+#python is case sensitive
+
+
+
+
+
+
+
+
+# arithmetic 
+
+# addition
+age = 15 + 10
+print("age: ", age)
+
+# subtraction
+age = age - 1 
+print("age:", age)
+
+# muliplication
+x = 3 * 2
+print("x: ", x)
+
+# division
+x = 5 / 2 
+print("x: ", x)
+
+# floor
+x = 5 // 2 
+print("x: ", x)
+
+# modulus operator 
+x = 5 % 2
+print("x: ", x)
+
+# exceptions
+# x = 5 / 0             # this code doesn't run becasue you can divid by zero or the error is division by zero
+# print("x: ", x) 
+
+# operator precedence: PEMDAS, left -> right if precedence is the same 
+x = (2 + 3) ** 2 
+print("x: ", x)
+
+
+
+
+
+
+
+
+# print statements and strings
+
+# comma seperated list 
+age = 25
+print("age: ", age)
+
+# escape characters
+print("Welcome\nto\nPython!")          # this code will enter a New Line after each word so they are seperated on the terminal
+
+print("Weclome to\tPython!")           # this code will enter a tab after the \t is placed
+
+# line break
+print("this print statement is really really long \
+and I want to put it on two lines")
+
+# printing an expression
+print("Sum of 5 and 3:", 5 + 3)
+
+first_name = "Jake"
+last_name = "Riggs"
+print("My name is", first_name, last_name)
+print("My name is" + first_name + last_name)           # this code will work with + for a string but it will just put JakeRiggs together instead of seperated
+
+
+
+
+
+
+
+
+
+
+# triple quoted strings
+
+# including quotes in your strings
+# you can include double quotes inside single quote strings
+print('Display "Hi" in quotes')
+print("Display 'Hi' in quotes")
+print("Display \"Hi\" in quotes")
+
+# triple line string
+story = """Hi this is my string.
+This is a really long string, so I am using a triple double quotes
+to store everything in here.
+
+To continue my story, I wanted to put another line here!
+
+
+"""
+print("Story: ", story)
+
+# triple single quote comments, this will not get ran in the terminal since it is a comment
+'''
+This is a comment, similar to # hashtag character but this is 
+used for multi-line comments. Usually at the top of your code to 
+provide documentation or an explanation of your code.
+'''
+
+
+
+
+
+
+
+
+
+
+# dynamic types
+
+# pi = input("Enter pi: ")           # lets the user input what ever they want pi to be in a text box in the terminal
+
+# print(type(pi))
+# print("pi: ", pi)
+# pi = eval(pi)
+# print(type(pi))
+# print("pi: ", pi)
+
+
+
+
+
+
+
+
+
+
+
+# min max range
+
+# min
+mn = min(1, 2, 3, 4, 5, -5) 
+print("min: ", mn)
+
+# max
+mx = max(1, 2, 3, 4, 5, -5)
+print("mx: ", mx)
+
+# range
+r = range(10)
+print("r: ", r)
+
+
+
+
+
+
+
+
+
+
+# if statements
+# when you want to compare two values
+
+# if statement
+if 5 > 10:     
+    print("5 is greater")    #false
+    # line of code
+    # line of code
+# this line is outside of the statement and will execute regardless
+
+if 10 > 5:
+    print("10 is greater")   #true
+
+
+
+
+
+
+
+
+
+#python interactive mode or ipython is good at debugging code.
+
+
